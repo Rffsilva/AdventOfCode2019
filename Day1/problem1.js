@@ -1,0 +1,1 @@
+document.getElementsByTagName("pre")[0].textContent.split("\n").map(v => Math.floor(parseInt(v) / 3) -2 ).filter(v => Number.isInteger(v)).reduce((t,v)=> t+v)
